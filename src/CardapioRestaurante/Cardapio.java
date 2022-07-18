@@ -39,7 +39,7 @@ public class Cardapio {
     //falta terminar com o get ingredientes
     public void exibir(){
         for (int i=0; i<pratos.size(); i++){
-            System.out.println("Seu prato é: " + pratos.get(i).getNomePrato());
+            System.out.println("Seu prato é: " + pratos.get(i).getNomePrato() + getIngredientes());
 
         }
     }
