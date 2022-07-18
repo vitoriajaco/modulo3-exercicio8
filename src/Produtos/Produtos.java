@@ -1,8 +1,7 @@
+package Produtos;
 
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
-import java.util.Set;
 
 public class Produtos {
     private String nomeProduto;
@@ -94,7 +93,7 @@ public class Produtos {
 
     @Override
     public String toString() {
-        return "Produtos{" +
+        return "Produtos.Produtos{" +
                 "nomeProduto='" + nomeProduto + '\'' +
                 ", preco=" + preco +
                 '}';

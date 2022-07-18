@@ -1,5 +1,5 @@
-import java.util.ArrayList;
-import java.util.List;
+package Produtos;
+
 import java.util.Scanner;
 
 public class Main {
@@ -41,37 +41,6 @@ public class Main {
             }
 
         }
-
-//        ArrayList<Produtos> produtos = new ArrayList<>();
-
-
-//
-//        Produtos produto1 = new Produtos("TV",850);
-//        Produtos produto2 = new Produtos("Air Fryer", 350);
-//        Produtos produto3 = new Produtos("Cama", 650);
-//
-//        produtos.add(produto1);
-//        produtos.add(produto2);
-//        produtos.add(produto3);
-//
-//
-//        for (Produtos p: produtos) {
-//            System.out.println("O nome do produto é : " +  p.getNomeProduto() + " | O preço é R$ " + p.getPreco());
-//        }
-
-
-
-
-
-
-
-        Scanner input = new Scanner(System.in);
-
-
-
-
-
-
 
     }
 }
